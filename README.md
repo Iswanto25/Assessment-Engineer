@@ -1,18 +1,17 @@
-#kebutuhan
+# kebutuhan
 
 -nodeJs 18.12.0
 -postgresql 14.7
 
-#menjalankan Project
+# menjalankan Project
 
--npm install
--nodemon
+- npm install
+- nodemon
 
-#routes
+# routes
 
-http://localhost:3000/auth/signup
-http://localhost:3000/auth/login
-http://localhost:3000/user/userlist
+- http://localhost:3000/auth/signup
+- http://localhost:3000/auth/login
+- http://localhost:3000/user/userlist
 
 pengujian endpoint melalui extension thunder client vscode dengan port 3000
-
