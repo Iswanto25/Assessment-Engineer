@@ -1,0 +1,206 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "BackEnd Test Code",
+    "dateExported": "2023-04-17T17:05:17.806Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "43da735b-308d-406d-8de2-899fb2ea566d",
+            "colId": "25e93f8e-b35b-4795-b7d6-a4760ec57c25",
+            "containerId": "",
+            "name": "http://localhost:3000/user/userlist",
+            "url": "http://localhost:3000/user/userlist",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-17T13:11:00.421Z",
+            "modified": "2023-04-17T13:11:00.421Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e7e0d02b-bb88-4df5-88df-7c24cfbb8a7e",
+            "colId": "25e93f8e-b35b-4795-b7d6-a4760ec57c25",
+            "containerId": "",
+            "name": "http://localhost:3000/auth/signup",
+            "url": "http://localhost:3000/auth/signup",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-17T14:35:24.755Z",
+            "modified": "2023-04-17T14:35:24.755Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "username"
+                    },
+                    {
+                        "name": "password",
+                        "value": "username"
+                    },
+                    {
+                        "name": "fullname",
+                        "value": "username"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "52e37309-f40c-4cbd-abe1-5a836ca4bbdc",
+            "colId": "25e93f8e-b35b-4795-b7d6-a4760ec57c25",
+            "containerId": "",
+            "name": "http://localhost:3000/auth/login",
+            "url": "http://localhost:3000/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-17T14:47:18.518Z",
+            "modified": "2023-04-17T17:03:37.036Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": ""
+                    },
+                    {
+                        "name": "password",
+                        "value": "Iswanto25"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4dbb6bf3-b047-4d6f-823d-ac37b8c73262",
+            "colId": "25e93f8e-b35b-4795-b7d6-a4760ec57c25",
+            "containerId": "",
+            "name": "http://localhost:3000/user/userlist",
+            "url": "http://localhost:3000/user/userlist?page=1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-17T16:46:29.927Z",
+            "modified": "2023-04-17T16:46:29.927Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODE3NDk5NDEsImV4cCI6MTY4MTc1MzU0MX0.4Pn1O8RL5ad3GX2QgCf738j7wEX7_9mCPC3Hoqn1elA"
+                }
+            ],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "username"
+                    },
+                    {
+                        "name": "password",
+                        "value": "username"
+                    },
+                    {
+                        "name": "token",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlNWNWVaQU0zdFFWTTdFb1FiUFZHbCIsImlhdCI6MTY4MTc0NzgzMywiZXhwIjoxNjgxNzUxNDMzfQ.Zml7TtH_CTL7Y03FGlRNMt0ki4_NIAYhFRNW5CyxFF4",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "f3f574c7-639c-45b4-b564-b49558d790ad",
+            "colId": "25e93f8e-b35b-4795-b7d6-a4760ec57c25",
+            "containerId": "",
+            "name": "http://localhost:3000/auth/login",
+            "url": "http://localhost:3000/auth/login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-04-17T16:46:42.881Z",
+            "modified": "2023-04-17T16:46:42.881Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "username"
+                    },
+                    {
+                        "name": "password",
+                        "value": "username"
+                    },
+                    {
+                        "name": "token",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlNWNWVaQU0zdFFWTTdFb1FiUFZHbCIsImlhdCI6MTY4MTc0NzgzMywiZXhwIjoxNjgxNzUxNDMzfQ.Zml7TtH_CTL7Y03FGlRNMt0ki4_NIAYhFRNW5CyxFF4",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6eb4a081-ee04-43b2-bfa8-18329ed926c2",
+            "colId": "25e93f8e-b35b-4795-b7d6-a4760ec57c25",
+            "containerId": "",
+            "name": "http://localhost:3000/auth/signup",
+            "url": "http://localhost:3000/auth/signup",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-04-17T16:46:59.980Z",
+            "modified": "2023-04-17T16:46:59.980Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "ddddff"
+                    },
+                    {
+                        "name": "password",
+                        "value": "username"
+                    },
+                    {
+                        "name": "fullname",
+                        "value": "username"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6f3d681d-6797-4e65-9cca-c60e6f36b79f",
+            "colId": "25e93f8e-b35b-4795-b7d6-a4760ec57c25",
+            "containerId": "",
+            "name": "http://localhost:3000/user/lll",
+            "url": "http://localhost:3000/user/lll",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-04-17T16:47:10.515Z",
+            "modified": "2023-04-17T16:47:10.515Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
